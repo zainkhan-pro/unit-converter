@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{const base='https://zeta-converter.example';return[{url:base},{url:base+'/converter'},{url:base+'/currency'},{url:base+'/calculators'}]}

@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function manifest():MetadataRoute.Manifest{return{name:'ZETA — Ultimate Universal Converter',short_name:'ZETA',start_url:'/',display:'standalone',background_color:'#f6f7f9',theme_color:'#111827',description:'Convert Anything. Instantly.'}}

@@ -1,0 +1,2 @@
+export type Category = 'length'|'mass'|'temperature'|'area'|'volume'|'speed'|'time'|'energy'|'power'|'pressure'|'force'|'torque'|'frequency'|'density'|'digital'|'data-transfer'|'pakistan-land'|'pakistan-weight';
+export type UnitDefinition = { id:string; name:string; symbol:string; aliases:string[]; category:Category; toBase:(value:number)=>number; fromBase:(value:number)=>number; formula?:string };
